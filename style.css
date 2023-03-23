@@ -219,3 +219,8 @@ nav {
 .slider-in button:hover {
   background-color: orange;
 }
+@media (max-width: 1100px) {
+  .slider-in {
+    width: 30%;
+  }
+}
