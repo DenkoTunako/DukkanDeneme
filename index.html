@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- * Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
+    <!-- * Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -67,7 +69,7 @@
         <div class="container">
             <div class="header-wrapper">
                 <div class="header-left">
-                    <a id="btn-menu" href=""> <i class="bi bi-list"></i></a>
+                    <a id="btn-menu" href="javascript:void(0);"> <i class="bi bi-list"></i></a>
                 </div>
                 <div class="header-center">
                     <input type="text">
@@ -84,10 +86,46 @@
                 </div>
             </div>
         </div>
+
+        <!--?? Navbar start -->
+        <nav>
+            <div class="navigations">
+                <ul>
+                    <a href="">
+                        <li>ŞİŞME BOT</li>
+                    </a>
+                    <a href="">
+                        <li>DENİZ MOTORU</li>
+                    </a>
+                    <a href="">
+                        <li>TEKNE YAT MALZEMELERİ</li>
+                    </a>
+                    <a href="">
+                        <li>ELEKTRONİK</li>
+                    </a>
+                    <a href="">
+                        <li>BALIKÇILIK MALZEMELERİ</li>
+                    </a>
+                    <a href="">
+                        <li>SU SPORU</li>
+                    </a>
+                    <a href="">
+                        <li>KARAVAN</li>
+                    </a>
+                    <a href="">
+                        <li>OUTDOOR</li>
+                    </a>
+                    <a href="">
+                        <li>GİYİM</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <!--?? Navbar end -->
     </header>
     <!-- !! Hambo menu start-->
-
     <div class="side-bar" id="sidebar">
+        <div class="side-bar-close"><i class="bi bi-x-circle"></i></div>
         <div class="side-bar-wrapper">
             <ul>
                 <a href="">
@@ -129,53 +167,9 @@
         </div>
 
     </div>
-
-
     <!-- !! Hambo menu end-->
-
     <!--!! Header end -->
-    <!--!! Navbar start -->
-    <nav>
-        <div class="navigations">
-            <ul>
-                <a href="">
-                    <li>ŞİŞME BOT</li>
-                </a>
-                <a href="">
-                    <li>TEKNE YAT MALZEMELERİ</li>
-                </a>
-                <a href="">
-                    <li>DENİZ MOTORU</li>
-                </a>
-                <a href="">
-                    <li>BALIKÇILIK MALZEMELERİ</li>
-                </a>
-                <a href="">
-                    <li>SU SPORU</li>
-                </a>
-                <a href="">
-                    <li>ELEKTRONİK</li>
-                </a>
-                <a href="">
-                    <li>GİYİM</li>
-                </a>
-                <a href="">
-                    <li>TEKNE</li>
-                </a>
-                <a href="">
-                    <li>OUTDOOR</li>
-                </a>
-                <a href="">
-                    <li>KARAVAN</li>
-                </a>
-                <a href="">
-                    <li>DALIŞ MALZEMELERİ</li>
-                </a>
-            </ul>
 
-        </div>
-    </nav>
-    <!--!! Navbar end -->
     <!--!! slider start -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -198,17 +192,530 @@
     </div>
     <div class="divider-img">
         <img width="100%" src="İMG/görselvitrin/vadeorta3 (1).jpg" alt="">
-
     </div>
-
     <!--!! slider end -->
 
+    <!-- !! Banners start -->
+    <div class="allbanners">
+        <div class="banner-wrapper">
+            <div class="banner">
+                <a href=""> <img src="İMG/kategori/orta1-2jpg.jpg" alt=""></a>
+                <div class="banner-text">
+                    <h2>TEKNE VE YAT MALZEMELERİ</h2><a href=""><i class="bi bi-arrow-right-circle"></i></a>
+                </div>
+            </div>
+            <div class="banner">
+                <a href=""> <img src="İMG/kategori/orta2-2.jpg" alt=""></a>
+                <div class="banner-text">
+                    <h2>BALIKÇILIK MALZEMELERİ</h2><a href=""><i class="bi bi-arrow-right-circle"></i></a>
+                </div>
+            </div>
+            <div class="banner">
+                <a href=""> <img src="İMG/kategori/orta3-2.jpg" alt=""></a>
+                <div class="banner-text">
+                    <h2>SU SPORLARI</h2><a href=""><i class="bi bi-arrow-right-circle"></i></a>
+                </div>
+            </div>
+            <div class="banner">
+                <a href=""> <img src="İMG/kategori/orta4-2.jpg" alt=""></a>
+                <div class="banner-text">
+                    <h2>TEKNE VE YAT MALZEMELERİ</h2><a href=""><i class="bi bi-arrow-right-circle"></i></a>
+                </div>
+            </div>
+            <div class="banner">
+                <a href=""><img src="İMG/kategori/orta6-2.jpg" alt=""></a>
+                <div class="banner-text">
+                    <h2>BALIKÇILIK MALZEMELERİ</h2><a href=""><i class="bi bi-arrow-right-circle"></i></a>
+                </div>
+            </div>
+            <div class="banner">
+                <a href=""><img src="İMG/kategori/katlanabilir2.png" alt=""></a>
+                <div class="banner-text">
+                    <h2>SU SPORLARI</h2><a href=""><i class="bi bi-arrow-right-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- !! Banners end -->
+
+    <!-- !! Porvaletti start -->
+    <div class="porvaletti">
+        <img width="100%" height="auto" src="İMG/bakcaz/porvaletti_orta4 (1).jpg" alt="">
+    </div>
+    <!-- !! Porvaletti end -->
+
+    <!-- !! Tab Menu start -->
+    <div class="container">
+        <div class="tab-menu-wrapper">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">EN ÇOK SATAN
+                    ÜRÜNLER</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">YENİ GELENLER</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">İNDİRİMDEKİ ÜRÜNLER</button>
+                <button class="tablinks" onclick="openCity(event, 'İstanbul')">FIRSAT ÜRÜNLERİ</button>
+            </div>
+
+            <div id="London" class="tabcontent">
+                <div class="swiper smySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/galvanizli-kalibre-zincir-zincir-lhr-49362-28-K.jpg" alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/dan-fender-light-sosis-usturmaca-usturmaca-ve-ekipmani-dan-fender-63494-28-K.jpg"
+                                    alt="">
+                                <div class=" product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+
+            <div id="Paris" class="tabcontent">
+                <div class="swiper smySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/galvanizli-kalibre-zincir-zincir-lhr-49362-28-K.jpg" alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/dan-fender-light-sosis-usturmaca-usturmaca-ve-ekipmani-dan-fender-63494-28-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div id="Tokyo" class="tabcontent">
+                <div class="swiper smySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div id="İstanbul" class="tabcontent">
+                <div class="swiper smySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/galvanizli-kalibre-zincir-zincir-lhr-49362-28-K.jpg" alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/dan-fender-light-sosis-usturmaca-usturmaca-ve-ekipmani-dan-fender-63494-28-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <img src="İMG/bakcaz/aquaforza-hidrofor-43-litredk-35psi-12volt-hidrofor-aquaforza-41748-23-K.jpg"
+                                    alt="">
+                                <div class="product-name">
+                                    <p>AquaForza Hidrofor 4.3 Litre/dk Psi 12 Volt </p>
+                                    <span>250,00 TL</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </div>
 
 
+    </div>
+    <!-- !! Tab Menu end -->
+
+    <!-- !! ZOJİRUSHI start -->
+    <div class="zoji-divider">
+        <img width="100%" height="auto" src="İMG/yeni/zoshirushibanner2 (1).jpg" alt="">
+    </div>
+    <!-- !! ZOJİRUSHI end -->
+
+    <!-- !! Blogs start -->
+    <div class="container">
+        <div class="Blog-title">
+            <h4>Blog</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="Blogs">
+            <div class="blog">
+                <a href=""> <img src="İMG/yeni/zehirli-boya-ve-uygulamalari-21-blog.jpg" alt="">
+                    <h2>ZEHİRLİ BOYA VE UYGULAMALARI</h2>
+                </a>
+                <div class="blog-button">
+                    <div>
+                        <h6>Zehirli boya</h6>
+                        <p>21 EYLÜL 2022</p>
+                    </div>
+                    <button>DEVAMINI OKU ..></button>
+                </div>
+                <p>
+                    uygulamaları kısaca teknenin karinasının (suda kalan kısmı) bakımı olarak adlandırılır. Zehirli boya
+                    uygulamaları teknenizin sezon boyunca performansını arttıran ve verimli çalışmasını sağlayan
+                    uygulamadır.
+                </p>
+            </div>
+            <div class="blog">
+                <a href=""> <img src="İMG/yeni/teknede-bulunmasi-gereken-asgari-techizatlar-22-22-blog.jpg" alt="">
+                    <h2>TEKNEDE BULUNMASI GEREKEN ASGARİ TECHİZATLAR</h2>
+                </a>
+                <div class="blog-button">
+                    <div>
+                        <h6>Amatör denizcilik</h6>
+                        <p>21 EYLÜL 2022</p>
+                    </div>
+                    <button>DEVAMINI OKU ..></button>
+                </div>
+                <p>
+                    federasyonu tarafından, teknenizde bulunması gereken asgari teçhizatlar
+                </p>
+            </div>
+            <div class="blog">
+                <a href=""> <img src="İMG/yeni/tekne-guvenli-bir-sekilde-nasil-demirlenir-23-blog.jpg" alt="">
+                    <h2>TEKNE GÜVENLİ BİR ŞEKİLDE NASIL DEMİRLENİR? DEMİRLEME YÖNTEMLERİ</h2>
+                </a>
+                <div class="blog-button">
+                    <div>
+                        <h6>Demirlemede kullanılan</h6>
+                        <p>21 EYLÜL 2022</p>
+                    </div>
+                    <button>DEVAMINI OKU ..></button>
+                </div>
+                <p>
+                    malzemeler ve kullanım çeşitleri
+                </p>
+            </div>
+            <div class="blog">
+                <a href=""> <img src="İMG/yeni/teknede-bulunmasi-gereken-asgari-techizatlar-22-22-blog.jpg" alt="">
+                    <h2>KARAVAN VE TEKNELERDE PİS SU SİSTEMİ VE TUVALET EKLENMESİ</h2>
+                </a>
+                <div class="blog-button">
+                    <div>
+                        <h6>Karavan yada</h6>
+                        <p>21 EYLÜL 2022</p>
+                    </div>
+                    <button>DEVAMINI OKU ..></button>
+                </div>
+                <p>
+                    teknelerde pis su sistemi ve tuvalet eklenmesi adına vereceğimiz bu yazıda, konu hakkında en çok
+                    sorulan sorulara da cevap vermeye çalışacağız.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- !! Blogs end -->
+
+    <!-- !! İconss  start-->
+    <div class="icon-wrapper">
+        <div class="icon-img">
+            <img src="İMG/üsticonlar/iconaa.png" alt="">
+        </div>
+        <div class="icon-img">
+            <img src="İMG/üsticonlar/Havale_indirimi57_1.jpg" alt="">
+        </div>
+        <div class="icon-img">
+            <img src="İMG/üsticonlar/ikon3.png" alt="">
+        </div>
+        <div class="icon-img">
+            <img src="İMG/üsticonlar/ikon4.png" alt="">
+        </div>
+
+    </div>
+    <!-- !! İconss  end-->
+
+    <!-- !! Footer  start-->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-staff">
+                <h4>KURUMSAL</h4>
+                <span></span>
+                <ul>
+                    <a href="">
+                        <li>Hakkımızda</li>
+                    </a>
+                    <a href="">
+                        <li>Politakamız</li>
+                    </a>
+                    <a href="">
+                        <li>Misyon-Vizyon</li>
+                    </a>
+                    <a href="">
+                        <li>Banka Hesap Numaraları</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-staff">
+                <h4>MÜŞTERİ HİZMETLERİ</h4>
+                <span></span>
+                <ul>
+                    <a href="">
+                        <li>Uzak mesafeli Satış Sözleşmesi</li>
+                    </a>
+                    <a href="">
+                        <li>İptal Koşulları</li>
+                    </a>
+                    <a href="">
+                        <li>Gizlilik Politikamız</li>
+                    </a>
+                    <a href="">
+                        <li>Uyelik sözleşmesi</li>
+                    </a>
+                    <a href="">
+                        <li>K.V.K.K Aydınlatma Metni</li>
+                    </a>
+                    <a href="">
+                        <li>Çerez Politikamız</li>
+                    </a>
+                    <a href="">
+                        <li>Teslimat ve Kargo</li>
+                    </a>
+                    <a href="">
+                        <li>Sıkça Sorulan Sorular</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-staff">
+                <h4>FIRSATLAR</h4>
+                <span></span>
+                <ul>
+                    <a href="">
+                        <li>En Çok Satan Ürünler</li>
+                    </a>
+                    <a href="">
+                        <li>İndirimdeki Ürünler</li>
+                    </a>
+                    <a href="">
+                        <li>Yeni Gelen Ürünler</li>
+                    </a>
+                    <a href="">
+                        <li>Fırsat Ürünleri</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-staff">
+                <h4>FIRSATLAR</h4>
+                <span></span>
+                <ul>
+                    <li><i class="bi bi-telephone"></i> 444 7 309</li>
+                    <li><i class="bi bi-geo-alt"></i>Anadolu Cad. No: 548 Karşıyaka / İZMİR</li>
+                    <li><i class="bi bi-envelope"></i> info@denizdukkani.comr</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-down">
+            <img src="İMG/footer icon/bonus.png" alt="">
+            <img src="İMG/footer icon/maximum.png" alt="">
+            <img src="İMG/footer icon/world.png" alt="">
+            <img src="İMG/footer icon/cardfinans.png" alt="">
+            <img src="İMG/footer icon/axess.png" alt="">
+            <img src="İMG/footer icon/paraf.png" alt="">
+            <img src="İMG/footer icon/visa.png" alt="">
+        </div>
+
+        <div class="footer-down2">
+            <p>Copyright © 2023 DenizDükkanı - Designed by Denko </p>
+            <p>Distributed by <span> Denko</span></p>
+
+        </div>
+    </footer>
+    <!-- !! Footer  end-->
+
+
+
+
+
+
+
+
+
+    <!-- ????? SCRİPT -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-   
+
 </body>
 
 </html>
